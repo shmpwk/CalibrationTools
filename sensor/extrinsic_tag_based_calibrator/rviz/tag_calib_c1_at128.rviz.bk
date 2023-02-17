@@ -18,9 +18,8 @@ Panels:
         - /Marker7/Topic1
         - /Marker8/Topic1
         - /Tag calib markers (filtered)1/Namespaces1
-        - /republished pointcloud1/Topic1
       Splitter Ratio: 0.6217391490936279
-    Tree Height: 797
+    Tree Height: 824
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -113,7 +112,6 @@ Visualization Manager:
         Value: /sensing/camera/camera4/image_raw
       Value: false
       Visibility:
-        "": true
         (Before Transformed) Edge Pointcloud: true
         (Optimized) Binary Transformed Points: true
         (Optimized) Transformed Point: true
@@ -164,10 +162,10 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: Intensity
       Decay Time: 0
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 100
+      Max Intensity: 133
       Min Color: 0; 0; 0
       Min Intensity: 0
       Name: Raw Pointcloud
@@ -185,7 +183,7 @@ Visualization Manager:
         Value: /sensing/lidar/at_128/pointcloud_raw
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -216,7 +214,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/whole_edged_pc
+        Value: /at_128/c1/camera_link/lidartag/whole_edged_pc
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -250,7 +248,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/original
+        Value: /at_128/c1/camera_link/lidartag/original
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -284,7 +282,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/cluster_edge_pc
+        Value: /at_128/c1/camera_link/lidartag/cluster_edge_pc
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -318,7 +316,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/detected_pc
+        Value: /at_128/c1/camera_link/lidartag/detected_pc
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -332,7 +330,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/boundary_marker
+        Value: /at_128/c1/camera_link/lidartag/boundary_marker
       Value: false
     - Class: rviz_default_plugins/MarkerArray
       Enabled: false
@@ -344,7 +342,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/cluster_marker
+        Value: /at_128/c1/camera_link/lidartag/cluster_marker
       Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -376,7 +374,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/boundary_pts
+        Value: /at_128/c1/camera_link/lidartag/boundary_pts
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -410,7 +408,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/transformed_points_tag
+        Value: /at_128/c1/camera_link/lidartag/transformed_points_tag
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -444,7 +442,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/transformed_points
+        Value: /at_128/c1/camera_link/lidartag/transformed_points
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -478,7 +476,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/initial_template_points
+        Value: /at_128/c1/camera_link/lidartag/initial_template_points
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -493,7 +491,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/tag_frame
+        Value: /at_128/c1/camera_link/lidartag/tag_frame
       Value: true
     - Class: rviz_default_plugins/MarkerArray
       Enabled: true
@@ -505,7 +503,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/id_markers
+        Value: /at_128/c1/camera_link/lidartag/id_markers
       Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -537,7 +535,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/template_points
+        Value: /at_128/c1/camera_link/lidartag/template_points
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -571,7 +569,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/template_points_3d
+        Value: /at_128/c1/camera_link/lidartag/template_points_3d
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -605,7 +603,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/associated_pattern_3d
+        Value: /at_128/c1/camera_link/lidartag/associated_pattern_3d
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -619,7 +617,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/ideal_frame
+        Value: /at_128/c1/camera_link/lidartag/ideal_frame
       Value: false
     - Class: rviz_default_plugins/MarkerArray
       Enabled: false
@@ -631,7 +629,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/detail_valid_marker
+        Value: /at_128/c1/camera_link/lidartag/detail_valid_marker
       Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -663,7 +661,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/before_transformed_edge_pc
+        Value: /at_128/c1/camera_link/lidartag/before_transformed_edge_pc
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -677,7 +675,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/intesection_markers
+        Value: /at_128/c1/camera_link/lidartag/intesection_markers
       Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -709,7 +707,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/lidartag_cluster_points
+        Value: /at_128/c1/camera_link/lidartag/lidartag_cluster_points
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -743,7 +741,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/lidartag_cluster_edge_points
+        Value: /at_128/c1/camera_link/lidartag/lidartag_cluster_edge_points
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -757,7 +755,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/cluster_buff_index_number_markers
+        Value: /at_128/c1/camera_link/lidartag/cluster_buff_index_number_markers
       Value: false
     - Class: rviz_default_plugins/MarkerArray
       Enabled: false
@@ -769,7 +767,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/cluster_buff_points_size_markers
+        Value: /at_128/c1/camera_link/lidartag/cluster_buff_points_size_markers
       Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -801,7 +799,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/colored_cluster_buff
+        Value: /at_128/c1/camera_link/lidartag/colored_cluster_buff
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -816,7 +814,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/top_corner
+        Value: /at_128/c1/camera_link/lidartag/top_corner
       Value: false
     - Class: rviz_default_plugins/Marker
       Enabled: false
@@ -829,7 +827,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/top_boundary_corner
+        Value: /at_128/c1/camera_link/lidartag/top_boundary_corner
       Value: false
     - Class: rviz_default_plugins/Marker
       Enabled: false
@@ -842,7 +840,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/left_corner
+        Value: /at_128/c1/camera_link/lidartag/left_corner
       Value: false
     - Class: rviz_default_plugins/Marker
       Enabled: false
@@ -855,7 +853,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/left_boundary_corner
+        Value: /at_128/c1/camera_link/lidartag/left_boundary_corner
       Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -887,7 +885,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/transformed_points
+        Value: /at_128/c1/camera_link/lidartag/transformed_points
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -902,7 +900,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/down_corner
+        Value: /at_128/c1/camera_link/lidartag/down_corner
       Value: false
     - Class: rviz_default_plugins/Marker
       Enabled: false
@@ -915,7 +913,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/down_boundary_corner
+        Value: /at_128/c1/camera_link/lidartag/down_boundary_corner
       Value: false
     - Class: rviz_default_plugins/Marker
       Enabled: false
@@ -928,7 +926,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/right_corner
+        Value: /at_128/c1/camera_link/lidartag/right_corner
       Value: false
     - Class: rviz_default_plugins/Marker
       Enabled: false
@@ -941,7 +939,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/right_boundary_corner
+        Value: /at_128/c1/camera_link/lidartag/right_boundary_corner
       Value: false
     - Class: rviz_default_plugins/MarkerArray
       Enabled: false
@@ -953,7 +951,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/current_projections
+        Value: /at_128/c1/camera_link/current_projections
       Value: false
     - Class: rviz_default_plugins/MarkerArray
       Enabled: true
@@ -965,7 +963,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/filtered_projections
+        Value: /at_128/c1/camera_link/filtered_projections
       Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -997,7 +995,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/edge_group_1
+        Value: /at_128/c1/camera_link/lidartag/edge_group_1
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -1031,7 +1029,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/edge_group_2
+        Value: /at_128/c1/camera_link/lidartag/edge_group_2
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -1065,7 +1063,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/edge_group_3
+        Value: /at_128/c1/camera_link/lidartag/edge_group_3
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -1099,7 +1097,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/edge_group_4
+        Value: /at_128/c1/camera_link/lidartag/edge_group_4
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -1133,7 +1131,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/initial_corners
+        Value: /at_128/c1/camera_link/lidartag/initial_corners
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
@@ -1147,41 +1145,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /sensor_kit_base_link/c1/camera_link/lidartag/ordered_pointcloud_markers
-      Value: true
-    - Alpha: 1
-      Autocompute Intensity Bounds: true
-      Autocompute Value Bounds:
-        Max Value: 10
-        Min Value: -10
-        Value: true
-      Axis: Z
-      Channel Name: intensity
-      Class: rviz_default_plugins/PointCloud2
-      Color: 255; 255; 255
-      Color Transformer: Intensity
-      Decay Time: 0
-      Enabled: true
-      Invert Rainbow: false
-      Max Color: 255; 255; 255
-      Max Intensity: 137
-      Min Color: 0; 0; 0
-      Min Intensity: 0
-      Name: republished pointcloud
-      Position Transformer: XYZ
-      Selectable: true
-      Size (Pixels): 3
-      Size (m): 0.009999999776482582
-      Style: Flat Squares
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        Filter size: 10
-        History Policy: Keep Last
-        Reliability Policy: Best Effort
-        Value: /sensor_kit_base_link/c1/camera_link/calibration/pointcloud
-      Use Fixed Frame: true
-      Use rainbow: true
+        Value: /at_128/c1/camera_link/lidartag/ordered_pointcloud_markers
       Value: true
   Enabled: true
   Global Options:
@@ -1237,26 +1201,26 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.47479742765426636
+      Pitch: 0.5147973895072937
       Position:
-        X: 1.880305528640747
-        Y: -0.4371228516101837
-        Z: 0.6843364238739014
+        X: -3.2507503032684326
+        Y: 0.7607196569442749
+        Z: 3.800848960876465
       Target Frame: <Fixed Frame>
       Value: FPS (rviz_default_plugins)
-      Yaw: 6.260011672973633
+      Yaw: 6.195011138916016
     Saved: ~
 Window Geometry:
   Camera:
     collapsed: false
   Displays:
     collapsed: false
-  Height: 1016
+  Height: 1043
   Hide Left Dock: false
   Hide Right Dock: false
   Image:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000001c90000035afc020000000cfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000035a000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d00610067006500000002f8000000a10000002800fffffffb0000000a0049006d00610067006500000002f8000000a10000000000000000fb0000000c00430061006d00650072006100000002d1000000c80000002800fffffffb00000030005200650063006f0067006e006900740069006f006e0052006500730075006c0074004f006e0049006d006100670065010000038300000016000000000000000000000001000001000000035afc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d0000035a000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007360000003efc0100000002fb0000000800540069006d0065010000000000000736000002fb00fffffffb0000000800540069006d00650100000000000004500000000000000000000004610000035a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000001c900000375fc020000000cfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d00000375000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d00610067006500000002f8000000a10000002800fffffffb0000000a0049006d00610067006500000002f8000000a10000000000000000fb0000000c00430061006d00650072006100000002d1000000c80000002800fffffffb00000030005200650063006f0067006e006900740069006f006e0052006500730075006c0074004f006e0049006d0061006700650100000383000000160000000000000000000000010000010000000375fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d00000375000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007360000003efc0100000002fb0000000800540069006d0065010000000000000736000002fb00fffffffb0000000800540069006d00650100000000000004500000000000000000000004610000037500000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -1267,4 +1231,4 @@ Window Geometry:
     collapsed: false
   Width: 1846
   X: 74
-  Y: 27
+  Y: 0

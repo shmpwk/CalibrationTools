@@ -18,7 +18,6 @@ Panels:
         - /Marker7/Topic1
         - /Marker8/Topic1
         - /Tag calib markers (filtered)1/Namespaces1
-        - /republished pointcloud1/Topic1
       Splitter Ratio: 0.6217391490936279
     Tree Height: 797
   - Class: rviz_common/Selection
@@ -113,7 +112,6 @@ Visualization Manager:
         Value: /sensing/camera/camera4/image_raw
       Value: false
       Visibility:
-        "": true
         (Before Transformed) Edge Pointcloud: true
         (Optimized) Binary Transformed Points: true
         (Optimized) Transformed Point: true
@@ -164,10 +162,10 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: Intensity
       Decay Time: 0
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 100
+      Max Intensity: 255
       Min Color: 0; 0; 0
       Min Intensity: 0
       Name: Raw Pointcloud
@@ -182,10 +180,10 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Best Effort
-        Value: /sensing/lidar/at_128/pointcloud_raw
+        Value: /sensing/lidar/top/pointcloud_raw
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -1149,44 +1147,10 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /sensor_kit_base_link/c1/camera_link/lidartag/ordered_pointcloud_markers
       Value: true
-    - Alpha: 1
-      Autocompute Intensity Bounds: true
-      Autocompute Value Bounds:
-        Max Value: 10
-        Min Value: -10
-        Value: true
-      Axis: Z
-      Channel Name: intensity
-      Class: rviz_default_plugins/PointCloud2
-      Color: 255; 255; 255
-      Color Transformer: Intensity
-      Decay Time: 0
-      Enabled: true
-      Invert Rainbow: false
-      Max Color: 255; 255; 255
-      Max Intensity: 137
-      Min Color: 0; 0; 0
-      Min Intensity: 0
-      Name: republished pointcloud
-      Position Transformer: XYZ
-      Selectable: true
-      Size (Pixels): 3
-      Size (m): 0.009999999776482582
-      Style: Flat Squares
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        Filter size: 10
-        History Policy: Keep Last
-        Reliability Policy: Best Effort
-        Value: /sensor_kit_base_link/c1/camera_link/calibration/pointcloud
-      Use Fixed Frame: true
-      Use rainbow: true
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: at_128
+    Fixed Frame: pandar_64
     Frame Rate: 30
   Name: root
   Tools:
@@ -1237,14 +1201,14 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.47479742765426636
+      Pitch: 0.6147972345352173
       Position:
-        X: 1.880305528640747
-        Y: -0.4371228516101837
-        Z: 0.6843364238739014
+        X: 3.260374069213867
+        Y: -0.6304468512535095
+        Z: 2.812504529953003
       Target Frame: <Fixed Frame>
       Value: FPS (rviz_default_plugins)
-      Yaw: 6.260011672973633
+      Yaw: 3.119992971420288
     Saved: ~
 Window Geometry:
   Camera:
@@ -1266,5 +1230,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1846
-  X: 74
+  X: 1994
   Y: 27

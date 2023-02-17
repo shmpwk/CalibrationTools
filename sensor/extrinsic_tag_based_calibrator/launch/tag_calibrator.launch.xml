@@ -39,7 +39,8 @@
     <param name="calibration_crossvalidation_training_ratio" value="0.7"/>
     <param name="calibration_convergence_min_pairs" value="9"/>
     <param name="calibration_convergence_min_area_percentage" value="0.1"/>
-    <param name="min_pnp_points" value="8"/>
+    <param name="min_pnp_points" value="3"/>
+    <!--more than 6 is expected -->
     <param name="min_convergence_time" value="6.0"/>
     <!--6.0-->
     <param name="max_no_observation_time" value="3.0"/>
